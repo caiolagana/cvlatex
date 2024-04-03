@@ -23,6 +23,7 @@
 
 \documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
 \usepackage{multicol}
+\usepackage{graphicx}
 \setlength{\columnsep}{0mm}
 %----------------------------------------------------------------------------------------
 \usepackage{lipsum}  
@@ -33,15 +34,21 @@
 %----------------------------------------------------------------------------------------
 %	TITLE AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.2\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
-\begin{minipage}[t]{0.5\textwidth} 
+		\includegraphics[width=0.7\linewidth]{caio-round.png}
+	
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth} 
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Caio Laganá Fernandes}}}} % First name
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Caio Laganá \\[1mm]Fernandes}}}} % First name
 	
 	\vspace{6pt}
 	
-	{\Large Ph.D Physicist $\sim$ Developer} % Career or current job title
+	{\Large Ph.D Physicist\\[1mm]} % Career or current job title
+	Developer
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
@@ -70,8 +77,8 @@
 \begin{minipage}[t]{0.46\textwidth}
     \cvsect{Summary}
 	\vspace{-6pt}
- 
-  Possess Ph.D. in High Energy Nuclear Physics at the European Organization for Nuclear Research (CERN). Awarded the Best Ph.D Thesis Prize by the Brazilian Physical Society in 2020. Experienced in programming languages, software development and data analysis. \\
+
+	Possess Ph.D. in High Energy Nuclear Physics at the European Organization for Nuclear Research (CERN). Awarded the Best Doctorate Thesis Prize by the Brazilian Physical Society in 2020. Experienced in programming languages, software development and data analysis.
 \end{minipage}
 \hfill % Whitespace between
 \begin{minipage}[t]{0.465\textwidth}
@@ -87,7 +94,7 @@
     \end{minipage}
     \hfill
     \begin{minipage}[t]{0.55\textwidth}
-	Abilitie to tackle intricate problems with creativity and precision
+	Ability to understand complex systems and work out efficient solutions to intrincate problems
     \end{minipage}
     
 \end{minipage}
@@ -121,25 +128,20 @@
 \cvsect{Formal Education}
 \begin{entrylist}
     \entry
-		{3/2023 - x/2023}
-		{\lipsum[1][1] }
-		{School}
-		{Enrolled, part time program for development}
+		{2013 - 2017}
+		{Doctorate in Physics}
+		{USP/CERN}
+		{University of São Paulo (USP) with one-year exchange program at European Organization for Nuclear Research (CERN). {\it Title:} Evidence for the existence of the $\Lambda nn$ hypernucleus with the ALICE detector}
     \entry
-		{x/2023 - x/2023}
-		{Professional Certificate}
-		{School}
-		{\lipsum[1][1]}
+		{2010-2012}
+		{Master's in Physics}
+		{UNESP}
+		{State University of São Paulo (UNESP) {\it Title:} Femtoscopia de colisões próton-próton no detector CMS do Large Hadron Collider}
 	\entry
-		{x/2023 - x/2023}
-		{Certificate}
-		{School}
-		{\lipsum[1][2]}
-	\entry
-		{x/2023 - x/2023}
-		{Engineer}
-		{School}
-		{\lipsum[1][2]}
+		{2006-2010}
+		{Bachelor's in Physics}
+		{USP}
+		{Scholarship from Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)}
 \end{entrylist}
 
 
@@ -148,25 +150,20 @@
 \cvsect{Complementary Education}
 \begin{entrylist}
     \entry
-		{3/2023 - x/2023}
-		{\lipsum[1][1] }
-		{School}
-		{Enrolled, part time program for development}
-    \entry
-		{x/2023 - x/2023}
-		{Professional Certificate}
-		{School}
-		{\lipsum[1][1]}
+		{2012}
+		{Excellence in Detectors and Instrumentation Technologies}
+		{Fermilab}
+		{Fermi National Accelerator Laboratory, Illinois (US)}
 	\entry
-		{x/2023 - x/2023}
-		{Certificate}
-		{School}
-		{\lipsum[1][2]}
+		{2012}
+		{Short Term Course in Laboratory Techniques}
+		{BNL}
+		{Brookhaven National Laboratory, Upton (US)}
 	\entry
-		{x/2023 - x/2023}
-		{Engineer}
-		{School}
-		{\lipsum[1][2]}
+		{2010}
+		{Short Term Course in Data Analysis Tools at CERN}
+		{CERN}
+		{European Organization for Nuclear Research, Meyrin (Switzerland)}
 \end{entrylist}
 
 
